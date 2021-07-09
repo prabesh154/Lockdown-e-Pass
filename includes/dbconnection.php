@@ -1,9 +1,11 @@
 <?php 
+
+
 // DB credentials.
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','ldps');
+define('DB_HOST',"us-cdbr-east-04.cleardb.com");
+define('DB_USER',"b3d0545c1dcf9f");
+define('DB_PASS',"bf6fbfcf");
+define('DB_NAME',"heroku_4ba108ecf7e23c6");
 // Establish database connection.
 try
 {
@@ -14,3 +16,4 @@ catch (PDOException $e)
 exit("Error: " . $e->getMessage());
 }
 ?>
+   
